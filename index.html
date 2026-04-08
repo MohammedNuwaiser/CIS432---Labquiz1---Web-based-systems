@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Product Catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>My Product Catalog</h1>
+</header>
+
+<main>
+    <section class="image-section">
+        <img src="product.jpg" alt="Shopping Products" width="400">
+    </section>
+
+    <section>
+        <h2>Available Products</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Category</th>
+                <th>Stock</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Wireless Mouse</td>
+                <td>$25.00</td>
+                <td>Electronics</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Cotton T-Shirt</td>
+                <td>$15.00</td>
+                <td>Apparel</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Coffee Mug</td>
+                <td>$10.00</td>
+                <td>Home Decor</td>
+                <td>8</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Feedback Form</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Customer Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="comments">Comments:</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="30"></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</main>
+
+</body>
+</html>
